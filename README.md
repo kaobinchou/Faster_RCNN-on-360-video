@@ -2,15 +2,17 @@
 
 Install
 
-`pip install -r requirement.txt
-
-git clone https://github.com/kbardool/keras-frcnn.git`
+```
+pip install -r requirement.txt
+git clone https://github.com/kbardool/keras-frcnn.git
+```
 
 Training
 
-`cd keras-frcnn
-
-python train_frcnn.py -o simple -p annotate.txt`
+```
+cd keras-frcnn
+python train_frcnn.py -o simple -p annotate.txt
+```
 
 Testing
 
