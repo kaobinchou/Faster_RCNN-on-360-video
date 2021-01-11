@@ -2,17 +2,18 @@
 
 Install
 
+Packages:
+`pip install -r requirement.txt`
+
+Faster-RCNN algorithm:
 ```
-pip install -r requirement.txt
 git clone https://github.com/kbardool/keras-frcnn.git
+cd keras-frcnn
 ```
 
 Training
 
-```
-cd keras-frcnn
-python train_frcnn.py -o simple -p annotate.txt
-```
+`python train_frcnn.py -o simple -p annotate.txt`
 
 Testing
 
